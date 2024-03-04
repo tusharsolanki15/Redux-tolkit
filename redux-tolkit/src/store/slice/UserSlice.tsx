@@ -1,8 +1,13 @@
 import { createSlice } from '@reduxjs/toolkit'
 
+interface user{
+    id: number,
+    name: string
+}
+
 const userSlice = createSlice({
     name: "user",
-    initialState: [],
+    initialState: [] as user[],
     reducers: {
         addUser(state, action){
             state.push(action.payload)
@@ -10,7 +15,7 @@ const userSlice = createSlice({
         },
         removeUser(state, action){},
         deleteUser(state, action){}, 
-    }
+    }   
 })
 
 // console.log(userSlice.actions)

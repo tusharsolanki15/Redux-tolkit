@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "age": 24
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "age": 25
+    },
+    {
+      "id": "0a01",
+      "name": "Shree Ram",
+      "age": "25"
+    }
+  ]
+}

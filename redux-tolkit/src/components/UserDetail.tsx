@@ -14,7 +14,7 @@ const userDetail: React.FC = () => {
 
   const dispatch = useDispatch()
 
-  const addNewUser = (payload) =>{
+  const addNewUser = (payload: string) =>{
     console.log(payload)
     dispatch(addUser(payload))
   };
