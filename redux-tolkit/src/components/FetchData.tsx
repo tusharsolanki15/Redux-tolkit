@@ -20,7 +20,7 @@ const retrievePosts = async (): Promise<Post[]> => {
 };
 
 const postDataMutation = (postData: FormData): Promise<unknown> => {
-    return axios.post("http://localhost:4000/users", postData);
+    return axios.post("http://localhost:4000/users", JSON.stringify(postData));
 };
 
 const FetchData: React.FC = () => {

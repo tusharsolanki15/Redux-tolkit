@@ -22,7 +22,6 @@ const Todo: React.FC = () => {
         );    
     }
 
-
     return (
         <>
             <h1>Todo APP</h1>
